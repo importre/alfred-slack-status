@@ -1,11 +1,8 @@
 import test from 'ava';
-import alfyTest from 'alfy-test';
-import output from './data';
 
-test(async t => {
-	const alfy = alfyTest();
-	const result = await alfy();
-
-	t.deepEqual(result, output);
+test('default', async t => {
+	const result = require('./statuses.json');
+	t.true(Array.isArray(result));
+	t.true(result.length > 0);
 });
 

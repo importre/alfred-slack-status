@@ -1,8 +1,9 @@
 'use strict';
 const alfy = require('alfy');
+const makeOutput = require('./utils').makeOutput;
 
 function showDefault() {
-	const output = require('./data');
+	const output = makeOutput();
 	alfy.output(output);
 }
 
