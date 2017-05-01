@@ -1,0 +1,38 @@
+[{
+	"title": "Eating",
+	"emoji": ":fork_and_knife:",
+	"icon": {
+		"path": "./icons/fork_and_knife.png"
+	}
+}, {
+	"title": "In a meeting",
+	"emoji": ":spiral_calendar:",
+	"icon": {
+		"path": "./icons/spiral_calendar.png"
+	}
+}, {
+	"title": "Commuting",
+	"emoji": ":bus:",
+	"icon": {
+		"path": "./icons/bus.png"
+	}
+}, {
+	"title": "Out sick",
+	"emoji": ":face_with_thermometer:",
+	"icon": {
+		"path": "./icons/face_with_thermometer.png"
+	}
+}, {
+	"title": "Vacationing",
+	"emoji": ":palm_tree:",
+	"icon": {
+		"path": "./icons/palm_tree.png"
+	}
+}, {
+	"title": "Working remotely",
+	"emoji": ":house_with_garden:",
+	"icon": {
+		"path": "./icons/house_with_garden.png"
+	}
+}]
+
