@@ -24,6 +24,7 @@
     "update.js",
     "utils.js",
     "statuses.json",
+    "icons",
     "icon.png",
     "info.plist"
   ],
@@ -46,3 +47,4 @@
     "xo": "^0.17.0"
   }
 }
+
