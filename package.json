@@ -1,6 +1,6 @@
 {
   "name": "alfred-slack-status",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Change your status of Slack",
   "license": "MIT",
   "repository": "importre/alfred-slack-status",
@@ -47,4 +47,3 @@
     "xo": "^0.17.0"
   }
 }
-
