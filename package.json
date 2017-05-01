@@ -18,10 +18,12 @@
     "preuninstall": "alfy-cleanup"
   },
   "files": [
-    "data.js",
     "index.js",
+    "test.js",
     "token.js",
     "update.js",
+    "utils.js",
+    "statuses.json",
     "icon.png",
     "info.plist"
   ],
