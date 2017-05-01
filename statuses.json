@@ -5,6 +5,12 @@
 		"path": "./icons/fork_and_knife.png"
 	}
 }, {
+	"title": "Resting",
+	"emoji": ":coffee:",
+	"icon": {
+		"path": "./icons/coffee.png"
+	}
+}, {
 	"title": "In a meeting",
 	"emoji": ":spiral_calendar:",
 	"icon": {
