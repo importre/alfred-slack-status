@@ -30,7 +30,7 @@ There are two options.
 
 <img src="https://cloud.githubusercontent.com/assets/1744446/25580104/d7577432-2eb8-11e7-8198-80e60fea2595.png" alt="custom" width=694>
 
-In Alfred, type `slackstatus`, select a status
+In Alfred, type `slackstatus`, select a status.
 
 #### Customize
 
@@ -53,6 +53,10 @@ or
 And then check your profile :tada:
 
 <img src="https://cloud.githubusercontent.com/assets/1744446/25579095/945f5c2a-2eaf-11e7-8db9-a1c211a2c02b.png" alt="result" width=119>
+
+### Remove status
+
+In Alfred, type `slackstatus clear` or `slackstatus clean`.
 
 
 ## License

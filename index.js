@@ -1,23 +1,37 @@
 'use strict';
 const alfy = require('alfy');
-const makeOutput = require('./utils').makeOutput;
+const utils = require('./utils');
 
 function showDefault() {
-	const output = makeOutput();
+	const output = utils.makeOutput();
 	alfy.output(output);
 }
 
-const status = /\s*(\S+)\s+(.+)\s*/.exec(alfy.input.trim());
+function showCustom(statuses) {
+	alfy.config.set('custom', statuses[0]);
+	alfy.output(statuses);
+}
 
-if (alfy.input && status) {
-	const statuses = [{
+const input = (alfy.input || '').trim();
+const status = /\s*(\S+)\s+(.+)\s*/.exec(input);
+
+if (utils.isClear(input)) {
+	showCustom([{
+		title: utils.REMOVE_STATUS,
+		subtitle: '',
+		emoji: '',
+		icon: {
+			path: './icons/x.png'
+		},
+		arg: -1
+	}]);
+} else if (status) {
+	showCustom([{
 		title: status[2],
 		subtitle: status[1],
 		emoji: status[1],
 		arg: -1
-	}];
-	alfy.config.set('custom', statuses[0]);
-	alfy.output(statuses);
+	}]);
 } else {
 	showDefault();
 }
