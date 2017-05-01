@@ -35,7 +35,8 @@
   ],
   "dependencies": {
     "alfy": "^0.6.0",
-    "got": "^6.7.1"
+    "got": "^6.7.1",
+    "rxjs": "^5.3.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",

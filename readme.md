@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/importre/alfred-slack-status.svg?branch=master)](https://travis-ci.org/importre/alfred-slack-status)
 
-> :speech_balloon: Change Slack Status
+> :speech_balloon: Alfred 3 workflow to change Slack statuses at once
 
 
 ## Install
@@ -16,11 +16,11 @@ $ npm i -g alfred-slack-status
 
 ## Usage
 
-### Save slack token once
+### Save slack tokens
 
-<img src="https://cloud.githubusercontent.com/assets/1744446/25578970/84ed3cd6-2eae-11e7-828d-d8262fd11f93.png" alt="token" width=694>
+<img src="https://cloud.githubusercontent.com/assets/1744446/25580054/67b07962-2eb8-11e7-84ff-eab135dca671.png" alt="token" width=694>
 
-In Alfred, type `slacktoken`, <kbd>Space</kbd>, and your token.
+In Alfred, type `slacktoken`, <kbd>Space</kbd>, key(maybe team name, **no whitespaces**), <kbd>Space</kbd>, and value(token).
 
 ### Set status
 
@@ -28,7 +28,7 @@ There are two options.
 
 #### [Select suggested](./statuses.json)
 
-<img src="https://cloud.githubusercontent.com/assets/1744446/25578906/f41b36fe-2ead-11e7-8017-984647ef88bd.png" alt="status" width=694>
+<img src="https://cloud.githubusercontent.com/assets/1744446/25580104/d7577432-2eb8-11e7-8198-80e60fea2595.png" alt="custom" width=694>
 
 In Alfred, type `slackstatus`, select a status
 

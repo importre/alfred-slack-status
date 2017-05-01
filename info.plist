@@ -75,7 +75,7 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>Change your status of Slack</string>
+	<string>Alfred 3 workflow to change Slack statuses at once</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>

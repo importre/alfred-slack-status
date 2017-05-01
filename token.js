@@ -1,5 +1,8 @@
 'use strict';
 const alfy = require('alfy');
 
-alfy.config.set('token', alfy.input);
+const result = /\s*(\S+)\s+(.+)\s*/.exec(alfy.input.trim());
+if (result) {
+	alfy.config.set(`tokens.${result[1]}`, result[2]);
+}
 
