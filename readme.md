@@ -18,7 +18,7 @@ $ npm i -g alfred-slack-status
 
 ### Save slack token once
 
-![token](https://cloud.githubusercontent.com/assets/1744446/25577420/cbdd9914-2ea0-11e7-93af-4088a1b33efb.png)
+<img src="https://cloud.githubusercontent.com/assets/1744446/25578970/84ed3cd6-2eae-11e7-828d-d8262fd11f93.png" alt="token" width=694>
 
 In Alfred, type `slacktoken`, <kbd>Space</kbd>, and your token.
 
@@ -28,13 +28,13 @@ There are two options.
 
 #### [Select suggested](./statuses.json)
 
-![status](https://cloud.githubusercontent.com/assets/1744446/25577413/bee7c888-2ea0-11e7-876f-7d2f4633a7e5.png)
+<img src="https://cloud.githubusercontent.com/assets/1744446/25578906/f41b36fe-2ead-11e7-8017-984647ef88bd.png" alt="status" width=694>
 
 In Alfred, type `slackstatus`, select a status
 
 #### Customize
 
-![custom](https://cloud.githubusercontent.com/assets/1744446/25577431/e1891766-2ea0-11e7-9257-506425a21ac3.png)
+<img src="https://cloud.githubusercontent.com/assets/1744446/25578941/371a4bb6-2eae-11e7-97d4-e2cd262d8afc.png" alt="custom" width=694>
 
 In Alfred, type `slackstatus`, <kbd>Space</kbd>, and your query.
 
@@ -50,11 +50,12 @@ or
 😎 your status
 ```
 
+And then check your profile :tada:
+
+<img src="https://cloud.githubusercontent.com/assets/1744446/25579095/945f5c2a-2eaf-11e7-8db9-a1c211a2c02b.png" alt="result" width=119>
+
 
 ## License
 
 MIT © [Jaewe Heo](http://importre.com)
-
-
-
 
