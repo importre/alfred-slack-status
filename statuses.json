@@ -5,6 +5,12 @@
 		"path": "./icons/fork_and_knife.png"
 	}
 }, {
+	"title": "Busy",
+	"emoji": ":bee:",
+	"icon": {
+		"path": "./icons/bee.png"
+	}
+}, {
 	"title": "Resting",
 	"emoji": ":coffee:",
 	"icon": {
