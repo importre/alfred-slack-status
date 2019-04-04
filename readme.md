@@ -16,6 +16,13 @@ $ npm i -g alfred-slack-status
 
 ## Usage
 
+### Create legacy slack tokens
+
+1. [Sign in](https://slack.com/signin) to all your teams with the slack web app
+2. Visit https://api.slack.com/custom-integrations/legacy-tokens
+3. Add a token for every team in there (in the `Legacy token generator` section)
+4. Type `slacktoken key value` foreach team as explained `Save slack tokens` section bellow.
+
 ### Save slack tokens
 
 <img src="https://cloud.githubusercontent.com/assets/1744446/25580054/67b07962-2eb8-11e7-84ff-eab135dca671.png" alt="token" width=694>
